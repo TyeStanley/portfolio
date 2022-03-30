@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 5px 5px 5px 30px;
+    background-color: cyan;
+}
+
+header h1 a {
+    color: gray;
+}
+
+header nav {
+    display: flex;
+    margin-right: 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li {
+    border-bottom: 3px solid cyan;
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    padding: 10px;
+    color: cyan;
+}
+
+.hero {
+    background-image: url(../images/XL_Background_pic.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero h2 {
+    background-color: rgba(255,255,255, 0.5);
+    width: 225px;
+    font-size: 22px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* About Me Section */
+
+.flex-container {
+    margin: 15px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.flex-container h3 {
+    padding: 5px 15px 0 20px;
+    border-right: 2px solid gray;
+    text-align: right;
+}
+.about-me-text {
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container h3 {
+    border-right: 2px solid red;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.container div img {
+    width: 100%;
+    height: 100%;
+}
+.item1 {
+    width: 100%;
+    height: 350px;
+    padding: 10px 5px 0px 10px;
+}
+
+.item2 {
+    width: 50%;
+    padding: 5px;
+}
