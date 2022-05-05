@@ -150,7 +150,7 @@ header nav ul li a {
 }
 
 .item1 {
-    background: url("../images/run-buddy.PNG") no-repeat;
+    background: url("../images/my-food-planner.PNG") no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -159,12 +159,12 @@ header nav ul li a {
 }
 
 .item2 {
-    background: url("../images/horiseon.PNG") no-repeat;
+    background: url("../images/run-buddy.PNG") no-repeat;
     background-size: cover;
 }
 
 .item3 {
-    background: url("../images/coming-soon.webp") no-repeat;
+    background: url("../images/horiseon.PNG") no-repeat;
     background-size: cover;
     background-position: center center;
 }
